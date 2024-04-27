@@ -18,7 +18,7 @@ setup(name="GBNN",
       author_email="emami.seyedsaman@uam.es, gonzalo.martinez@uam.es",
       description=LONG_DESCRIPTION,
       packages=find_packages(),
-      install_requires=['numpy', 'scipy', 'sklearn'],
+      install_requires=['numpy', 'scikit-learn', 'sklearn'],
       classifiers=[
           "Development Status :: 1 - Planning",
           "Intended Audience :: Developers",
